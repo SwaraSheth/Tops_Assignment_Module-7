@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test1">
+        <parameter name="email" value="swara@gmail.com"/>
+        <parameter name="password" value="swara@09"/>
+    <classes>
+      <class name="com.assignment7.TestngParameterFB"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test2">
+        <parameter name="email" value="utsav@gmail.com"/>
+        <parameter name="password" value="utsav@19"/>
+    <classes>
+      <class name="com.assignment7.TestngParameterFB"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

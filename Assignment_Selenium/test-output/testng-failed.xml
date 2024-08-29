@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="password" value="swara@09"/>
+    <parameter name="email" value="swara@gmail.com"/>
+    <classes>
+      <class name="com.assignment7.TestngParameterFB">
+        <methods>
+          <include name="before"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.assignment7.TestngParameterFB -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="password" value="utsav@19"/>
+    <parameter name="email" value="utsav@gmail.com"/>
+    <classes>
+      <class name="com.assignment7.TestngParameterFB">
+        <methods>
+          <include name="before"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.assignment7.TestngParameterFB -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
